@@ -22,7 +22,7 @@ ORM em typescript focada no padrao Active Record para MySQL e PostgreSQL. Prove 
 ## Instalacao
 
 ```bash
-npm install @aceitadev/adatabase
+npm install @aceitadev/adatabase@latest
 
 # escolha o driver do banco
 npm install mysql2        # para MySQL ou MariaDB
@@ -32,7 +32,7 @@ npm install pg            # para PostgreSQL
 ## Inicializacao do banco
 
 ```	ts
-import { init } from '@aceitadev/adatabase@latest';
+import { init } from '@aceitadev/adatabase';
 
 init('mysql', {
   host: '127.0.0.1',

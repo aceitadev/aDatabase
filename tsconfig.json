@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "commonjs",
+        "outDir": "./dist", // Garante que a saída seja na pasta dist
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        // LINHA ESSENCIAL: Adicione ou garanta que esta linha exista e seja true
+        "declaration": true,
+        // Recomendado: Habilita o uso de decorators
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": [
+        "src"
+    ] // Garante que apenas a pasta src seja compilada
+}

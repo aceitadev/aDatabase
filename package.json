@@ -1,0 +1,41 @@
+{
+    "name": "@aceitadev/adatabase",
+    "version": "0.7.0",
+    "description": "Uma biblioteca para facilitar a interação com bancos de dados MySQL e PostgreSQL em projetos TypeScript/Node.js.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/example.js",
+        "dev": "ts-node-dev --respawn --transpile-only src/example.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aceitadev/aMySQL-Node.git"
+    },
+    "keywords": [
+        "mysql",
+        "mysql2",
+        "database",
+        "typescript",
+        "node"
+    ],
+    "author": "Murilo Ribeiro aceitadev@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/aceitadev/aMySQL-Node/issues"
+    },
+    "homepage": "https://github.com/aceitadev/aMySQL-Node#readme",
+    "dependencies": {
+        "mysql2": "^3.2.0",
+        "pg": "^8.16.3"
+    },
+    "devDependencies": {
+        "@types/pg": "^8.15.5",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.0.0"
+    }
+}

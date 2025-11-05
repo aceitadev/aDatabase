@@ -32,7 +32,7 @@ npm install pg            # para PostgreSQL
 ## Inicializacao do banco
 
 ```	ts
-import { init } from '@aceitadev/adatabase';
+import { init } from '@aceitadev/adatabase@latest';
 
 init('mysql', {
   host: '127.0.0.1',
